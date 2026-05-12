@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+:root {
+   --font-main: 'Roboto', Helvetica, sans-serif;
+   --color-primary: #598234;
+   --color-secondary: #aebd38;
+   --color-accent: #aebd38;
+   --color-shadow: rgba(0, 0, 0, 0.1);
+   --color-text: #1f2937;
+   --color-white: #ffffff;
+
+   /* MAIN COLORS */
+   --color-background-info: #0f172a;
+    --color-background: #f5f5f5;
+   --color-shadow-dark: #1d1d1d;
+   --color-shadow-light: #adadad;
+
+   /* FORM COLORS */
+   --color-placeholder: #adadad;
+   --color-form-field-border: #ccc;
+   --color-form-field-focus: #969696;
+   --color-form-field-option: #f1f1f1;
+}

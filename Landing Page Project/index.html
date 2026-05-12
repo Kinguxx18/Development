@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Landing Page</title>
+        
+        <meta name="description" content="A Simple Promotional Landing Page Template">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <section name="hero" class="hero ">
+            <h1>Impulsamos tu presencia digital</h1>
+            <p>
+            Creamos soluciones modernas y eficientes
+            para negocios que quieren crecer en línea.
+            </p>
+            <a href="#features">Learn More</a>
+        </section>
+
+        <section class="features" >
+            <div class="col col-2 first-child">
+                <h2>Features</h2>
+                <p>Here are some of the features of our product.</p>
+            </div>
+            <div class="col col-2 second-child">
+                <h2>Testimonials</h2>
+                <p>Here are what our customers say about us.</p>
+            </div>
+            <div class="col col-2 second-child">
+                <h2>Features</h2>
+                <p>Here are some of the features of our product.</p>
+            </div>
+            <div class="col col-2 first-child">
+                <h2>Testimonials</h2>
+                <p>Here are what our customers say about us.</p>
+            </div>
+            <div class="col col-2 first-child">
+                <h2>Features</h2>
+                <p>Here are some of the features of our product.</p>
+            </div>
+            <div class="col col-2 second-child">
+                <h2>Testimonials</h2>
+                <p>Here are what our customers say about us.</p>
+            </div>
+            <div class="col col-2 second-child">
+                <h2>Features</h2>
+                <p>Here are some of the features of our product.</p>
+            </div>
+            <div class="col col-2 first-child">
+                <h2>Testimonials</h2>
+                <p>Here are what our customers say about us.</p>
+            </div>
+        </section>
+        <section name="info" class="col col-1 info">
+            <button id="openModalBtn">
+                <P>Contact Us</P>
+            </button>
+
+            <!-- Estructura del Modal -->
+            <div id="modal" class="modal">
+            <div class="modal-content">
+                <h2>Contáctanos</h2>
+                <form id="contactForm">
+                   <div class="input-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input 
+                        type="text" 
+                        id="nombre"
+                        placeholder="Escriba su nombre completo..."
+                        required
+                    >
+                    </div>
+
+                    <div class="input-group">
+                    <label for="telefono">Número de Teléfono</label>
+                    <input 
+                        type="tel" 
+                        id="telefono"
+                        placeholder="Escriba su número de teléfono..."
+                        required
+                    >
+                    </div>
+
+                    <div class="input-group">
+                    <label for="correo">Correo Electrónico</label>
+                    <input 
+                        type="email" 
+                        id="correo"
+                        placeholder="Escriba su correo electrónico..."
+                        required
+                    >
+                    </div>
+                    <button type="submit" id="closeModalBtn"> Enviar </button>
+                    
+                </form>
+            </div>
+            </div>
+        </section>
+        
+        <script src="assets/js/script.js" async defer></script>
+
+    </body>
+</html>

@@ -1,0 +1,18 @@
+/* ---Grid--- */
+
+.col {
+   float: left;
+}
+
+.col.col-1 {
+   
+   width: 100%;
+}
+
+.col.col-2 {
+   width: 50%;
+}
+
+.col.col-3 {
+   width: 33.33%;
+}

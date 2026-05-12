@@ -1,0 +1,105 @@
+@import url(/assets/css/reset.css);
+@import url(/assets/css/theme.css);
+@import url(/assets/css/grid.css);
+@import url(/assets/css/modal.css);
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #e4e6e9;
+    background-color: var(--color-background);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /*evitar el scroll vertical*/
+    overflow: hidden;
+    z-index: 100;
+    background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #2563eb
+  );
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+section, div
+{
+    padding: 20px;
+    height: auto;
+    width: auto;
+}
+
+.hero {
+    background: linear-gradient(
+        to bottom,
+        #1e293b,
+        #0f172a
+    );
+    width: 100%;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: var(--color-background-info);
+    padding: 100px;
+    text-align: center;
+}
+
+.features {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.first-child {
+    
+    opacity: 1;
+    box-shadow: 0 4px 8px var(--color-shadow-light);
+    background-color: var(--color-background-first-child);
+    text-align: center;
+    padding: 150px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.second-child {
+    opacity: 1;
+    box-shadow: 0 4px 8px var(--color-shadow-light);
+    border-radius: 10px;
+    background-color: var(--color-background-second-child);
+    text-align: center;
+    padding: 150px;
+    margin: auto;
+}
+
+.info {
+    opacity: 0.9;
+    box-shadow: 0 4px 8px var(--color-shadow-light);
+    z-index: 100;
+    border-radius: 10px;
+    background-color: var(--color-background-info);
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    color: #e4e6e9;
+    background-color: var(--color-accent);
+    border: none;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
