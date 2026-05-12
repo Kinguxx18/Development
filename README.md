@@ -70,10 +70,6 @@ Classic Hangman game built in Python, focusing on logic and user interaction.
 ## 🧠 Skills Demonstrated
 
 * Web Development (HTML, CSS, JavaScript)
-* Programming Logic (Python, C++)
-* Problem Solving
-* Algorithmic Thinking
-* Basic Cybersecurity Concepts
 
 ---
 
