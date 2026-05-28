@@ -6,7 +6,7 @@ This repository contains a collection of projects developed as part of my learni
 
 ## 📌 Projects
 
-### 🌐 Personal Website *(In Progress)*
+### 🌐 Personal Website *(Finish - In Progress)*
 
 A personal web project designed to showcase my portfolio, skills, and development journey.
 
@@ -16,7 +16,7 @@ A personal web project designed to showcase my portfolio, skills, and developmen
 
 ---
 
-### 🌐 Landing Page *(In Progress)*
+### 🌐 Landing Page *(Finish)*
 
 Modern and responsive web page focused on user experience and clean design.
 
@@ -26,6 +26,15 @@ Modern and responsive web page focused on user experience and clean design.
 
 ---
 
+📝 To Do App *(Finish)*
+Interactive task management application focused on practicing CRUD operations and DOM manipulation.
+
+Built with HTML, CSS, and JavaScript
+Implements CRUD functionality (Create, Read, Update, Delete)
+Dynamic DOM manipulation for task rendering and updates
+Responsive dark-themed UI design
+Continuous improvements in functionality and user experience
+
 ### 🔐 Cryptography & Encryption Project (Python)
 
 Implementation of basic cryptographic techniques using Python, focused on data security and encryption logic.
@@ -34,6 +43,8 @@ Implementation of basic cryptographic techniques using Python, focused on data s
 * String and data manipulation
 * Understanding of basic cybersecurity principles
 * Strengthening logical and algorithmic thinking
+
+Note: Not Asyncronous Implementation!
 
 ---
 
