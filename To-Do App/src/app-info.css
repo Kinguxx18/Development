@@ -1,0 +1,33 @@
+.app-info{
+    margin-top: 20px;
+    padding: 15px;
+
+    background: #1e293b;
+    border-radius: 12px;
+
+    color: #cbd5e1;
+}
+
+.app-info p{
+    padding: 2px;
+}
+
+.app-info h2{
+    color: #60a5fa;
+    margin-bottom: 10px;
+}
+
+.app-info h3{
+    margin-top: 15px;
+    color: #93c5fd;
+}
+
+.credits{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #334155;
+}
+
+.credits .version{
+    text-align: center;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="/src/modal.css">
+    <link rel="stylesheet" href="/src/app-info.css">
+
+    <script src="/js/script.js" defer></script>
+    <script src="/js/task.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>To Do App</h1>
+
+        <div class="input-group">
+            <input  type="text" placeholder="ADD YOUR TASK..." id="task-input">
+            <button id="new-task" >+</button>
+        </div>
+
+        <ul class="task-list">
+
+            <li class="task">
+                <span>Bug Slayer</span>
+                <button id="edit-btn" class="edit-btn">✏️</button>
+                <button id="delete-btn" class="delete-btn">🗑️</button>
+            </li>
+
+            <li class="task completed">
+                <span>Master of Procrastination</span>
+                <button id="edit-btn" class="edit-btn">✏️</button>
+                <button id="delete-btn" class="delete-btn">🗑️</button>
+            </li>
+
+            <li class="task">
+                <span>Conquer The World (Optional)</span>
+                <button id="edit-btn" class="edit-btn">✏️</button>
+                <button id="delete-btn" class="delete-btn">🗑️</button>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <section class="app-info">
+        <h2>About This Project</h2>
+        <p>
+            This is a To Do App designed to practice CRUD operations,
+            DOM manipulation, and dynamic UI updates using JavaScript.
+        </p>
+        <p>
+            The app allows users to create, edit, complete, and delete tasks
+            with a simple and interactive interface.
+        </p>
+        <div class="credits">
+            <h3>Credits</h3>
+            <p>
+                Developed by: <strong>Kingux</strong>
+            </p>
+            <p>
+                Technologies used:
+                HTML • CSS • JavaScript
+            </p>
+            <p>
+                UI inspired by modern dark dashboard design systems.
+            </p>
+            <div class="version">
+                <p>Version: 1.0.0</p>
+                <p>GitHub: github.com/Kinguxx18/MyProjects</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal hidden">
+        <div class="modal-content">
+            <h2>Editar Tarea</h2>
+            <input type="text" class="edit-input">
+            <div class="modal-buttons">
+                <button class="confirm-btn">Guardar</button>
+                <button class="cancel-btn">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
