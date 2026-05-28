@@ -14,6 +14,8 @@ A personal web project designed to showcase my portfolio, skills, and developmen
 * Responsive design for multiple devices
 * Continuous improvements in UI/UX and functionality
 
+https://kinguxx18.github.io/
+
 ---
 
 ### 🌐 Landing Page *(Finish)*
